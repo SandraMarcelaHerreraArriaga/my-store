@@ -1,24 +1,28 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a project that is going to be used as practice to learn workarea gem and continue improving rails framework.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby 2.6.5
 
-* System dependencies
+* MongoDB 2.11.4
 
-* Configuration
+* Rails 5.2.4.2
 
-* Database creation
+Steps to run the project:
+ 
+  `bundle install`
 
-* Database initialization
+ Start Workarea service dependencies
 
-* How to run the test suite
+ `rails workarea:services:up`
 
-* Services (job queues, cache servers, search engines, etc.)
+ Start the Rails server
 
-* Deployment instructions
+ `rails server`
 
-* ...
+Stop the services
+
+ `rails workarea:services:down`
+
